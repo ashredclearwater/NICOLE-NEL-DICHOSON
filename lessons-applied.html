@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons Applied</title>
+    <style>
+        body {
+            background-color: #f9f9f9; /* Light background */
+            color: #333; /* Darker text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%; /* Make sure the image scales correctly */
+            height: auto;
+            border: 2px solid #007ACC; /* Add a border to the image */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h3> <i>⋅˚₊‧ ୨୧ ‧₊˚ ⋅ LISTS </i> </h3>
+
+ <!-- Ordered List -->
+    <h4>Ordered List</h4>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+
+    <!-- Unordered List -->
+    <h4>Unordered List</h4>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+
+    <!-- Definition List -->
+    <h4>Definition List</h4>
+    <dl>
+        <dt> <i> 𝜗𝜚 HTML </i> </dt>
+        <dd>A markup language for creating web pages.</dd>
+        <dt> <i> 𝜗𝜚 CSS </i> </dt>
+        <dd>A style sheet language for designing web pages.</dd>
+        <dt> <i> 𝜗𝜚 JavaScript <i> </dt>
+        <dd>A programming language for adding interactive elements to websites.</dd>
+    </dl>
+	
+	
+	
+	
+	 <title>Simple Table</title>
+    <style>
+        table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+<br>
+<br>
+<br>
+
+
+<h3> <i>⋅˚₊‧ ୨୧ ‧₊˚ ⋅ TABLES </i> </h3>
+<h4 style="text-align:center;">Simple Table Example </h4>
+
+
+<table>
+    <tr>
+        <th>Subject</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>Math</td>
+        <td>95</td>
+    </tr>
+    <tr>
+        <td>English</td>
+        <td>88</td>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>92</td>
+    </tr>
+</table>
+
+<br>
+<br>
+<br>
+
+ <title>Modified Table</title>
+    <style>
+        table {
+            width: 60%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: lightblue;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<h4 style="text-align:center;">Modified Table Example</h4>
+
+<table>
+    <tr>
+        <th>Subject</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>Math</td>
+        <td>95</td>
+    </tr>
+    <tr>
+        <td>English</td>
+        <td>88</td>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>92</td>
+    </tr>
+    <tr>
+        <td>History</td>
+        <td>85</td>
+    </tr>
+</table>
+
+<br>
+<br>
+<br>
+
+<title>Merged Cells</title>
+    <style>
+        table {
+            width: 70%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<h4 style="text-align:center;">Merging Cells Example</h4>
+
+<table>
+    <tr>
+        <th>Subject</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td colspan="2">No Grades Available Yet</td> <!-- Merging two columns -->
+    </tr>
+    <tr>
+        <td>Math</td>
+        <td>95</td>
+    </tr>
+    <tr>
+        <td>English</td>
+        <td>88</td>
+    </tr>
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ <title> <i> ⋅˚₊‧ ୨୧ ‧₊˚ ⋅  Simple Hyperlinks Example </i> </title>
+    <style>
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Simple Hyperlinks Example</h3>
+
+<p>Here are some examples of hyperlinks with different attributes:</p>
+
+<!-- Basic hyperlink -->
+<p><a href="https://www.google.com">Visit Google</a></p>
+
+<!-- Hyperlink with target to open in a new tab -->
+<p><a href="https://www.wikipedia.org" target="_blank" title="Opens Wikipedia in a new tab">Visit Wikipedia (New Tab)</a></p>
+
+<!-- Hyperlink with an anchor link that goes to a section on the same page -->
+<p><a href="#section1">Jump to Section 1</a></p>
+
+<!-- Section 1 to demonstrate anchor links -->
+<h3 id="section1">Section 1: Anchor Links</h3>
+<p>This section shows how anchor links work. Click the link above to jump here.</p>
+
+<!-- Email link (mailto) -->
+<p><a href="mailto:nachonicho@email.com" title="Send an email">Send Me an Email</a></p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ <title>Simple Form Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="checkbox"], input[type="radio"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        input[type="submit"], input[type="reset"] {
+            width: 100px;
+            padding: 10px;
+            margin-right: 10px;
+            background-color: lightblue;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #7fbfff;
+        }
+    </style>
+</head>
+<body>
+
+<h3 style="text-align: center;"> ⋅˚₊‧ ୨୧ ‧₊˚ ⋅  Simple Form</h3>
+
+<form action="/submit" method="POST">
+    <!-- Textbox -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+
+    <!-- Password box -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+
+    <!-- Textarea -->
+    <label for="bio">Bio:</label>
+    <textarea id="bio" name="bio" placeholder="Tell us about yourself" rows="4"></textarea>
+
+    <!-- Dropdown Box -->
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+
+    <!-- Radio Buttons -->
+    <label>Are you a student?</label>
+    <input type="radio" id="student-yes" name="student" value="yes">
+    <label for="student-yes">Yes</label>
+    <input type="radio" id="student-no" name="student" value="no">
+    <label for="student-no">No</label>
+
+    <!-- Checkboxes -->
+    <label>Subjects you like:</label>
+    <input type="checkbox" id="subject-math" name="subjects" value="math">
+    <label for="subject-math">Math</label>
+    <input type="checkbox" id="subject-english" name="subjects" value="english">
+    <label for="subject-english">English</label>
+    <input type="checkbox" id="subject-science" name="subjects" value="science">
+    <label for="subject-science">Science</label>
+
+    <!-- Submit and Reset Buttons -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+
+
+
+<!-- Add an image if you'd like -->
+<div class="image-container">
+    <img src="Anthonysilly.jpg" width="500">
+</div>
+
+
+
+</body>
+</html>
